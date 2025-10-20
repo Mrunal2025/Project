@@ -1,0 +1,43 @@
+API: http://localhost:8000/docs#/
+
+
+step 1 : python -m venv venv(vs Terminal)
+(after step2 then : venv\Scripts\activate)
+
+step 2: Open PowerShell as Administrator:
+
+Get-ExecutionPolicy
+Set-ExecutionPolicy RemoteSigned
+Get-ExecutionPolicy
+
+step3:
+pip install -r requirements.txt
+
+step 4 : (Set Up Docker) 
+docker network create AIservice
+docker-compose up -d --build
+
+step 5:(Start Project)
+streamlit run streamlit_app.py
+
+
+
+C:\Users\VIVEK PAL>git clone https://github.com/Nneji123/Credit-Card-Fraud-Detection.git
+Cloning into 'Credit-Card-Fraud-Detection'...
+remote: Enumerating objects: 277, done.
+remote: Counting objects: 100% (192/192), done.
+remote: Compressing objects: 100% (120/120), done.
+remote: Total 277 (delta 95), reused 145 (delta 65), pack-reused 85
+Receiving objects: 100% (277/277), 4.52 MiB | 7.12 MiB/s, done.
+Resolving deltas: 100% (120/120), done.
+
+
+
+C:\Users\VIVEK PAL>cd Credit-Card-Fraud-Detection
+
+C:\Users\VIVEK PAL\Credit-Card-Fraud-Detection>cd C:/Users/VIVEK PAL/OneDrive/Desktop/python/Credit-Card-Fraud-Detection-main/Credit-Card-Fraud-Detection-main
+
+C:\Users\VIVEK PAL\OneDrive\Desktop\python\Credit-Card-Fraud-Detection-main\Credit-Card-Fraud-Detection-main>cd Credit-Card-Fraud-Detection
+The system cannot find the path specified.
+
+C:\Users\VIVEK PAL\OneDrive\Desktop\python\Credit-Card-Fraud-Detection-main\Credit-Card-Fraud-Detection-main>
